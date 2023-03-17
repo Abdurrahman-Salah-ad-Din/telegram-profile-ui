@@ -20,4 +20,8 @@
     <string name="settings_storage">Storage</string>
     <string name="settings_folder">Chat Folders</string>
     <string name="settings_language">Language</string>
+    <string name="qr_code">QR code</string>
+    <string name="search">Search</string>
+    <string name="more">more</string>
+    <string name="back">back</string>
 </resources>
