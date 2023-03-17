@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Telegram Profile UI</string>
+    <string name="user_name">Sakura</string>
+    <string name="user_state">Online</string>
+    <string name="settings_account">Account</string>
+    <string name="account_phone_number">+0123456789</string>
+    <string name="settings_change_phone_number">Tap here to change phone number</string>
+    <string name="account_username">\@username</string>
+    <string name="settings_username">Username</string>
+    <string name="settings_bio">Add a few words about yourself</string>
+    <string name="account_bio">Bio</string>
+    <string name="settings_phone_number_auth">Is +0123456789 still you number ?</string>
+    <string name="settings_auth_message">Keep your number up to date to ensure you can always log into Telegram.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="settings">Settings</string>
+    <string name="settings_chat_settings">Chat Settings</string>
+    <string name="settings_privacy_and_security">Privacy and Security</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_storage">Storage</string>
+    <string name="settings_folder">Chat Folders</string>
+    <string name="settings_language">Language</string>
 </resources>
