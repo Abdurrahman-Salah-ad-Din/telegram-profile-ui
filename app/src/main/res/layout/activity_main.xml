@@ -359,6 +359,7 @@
         android:layout_width="@dimen/image_button_width_height"
         android:layout_height="@dimen/image_button_width_height"
         android:background="#00FFFFFF"
+        android:visibility="gone"
         android:contentDescription="@string/search"
         android:layout_marginEnd="@dimen/medium_margin"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
