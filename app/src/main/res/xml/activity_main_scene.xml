@@ -200,6 +200,7 @@
         app:constraintSetStart="@+id/start">
         <OnSwipe
             app:dragDirection="dragUp"
+            app:touchAnchorId="@+id/scrollView2"
             app:moveWhenScrollAtTop="true"
             app:touchAnchorSide="top" />
     </Transition>
@@ -209,6 +210,7 @@
         app:constraintSetStart="@+id/middle">
         <OnSwipe
             app:dragDirection="dragUp"
+            app:touchAnchorId="@+id/scrollView2"
             app:moveWhenScrollAtTop="true"
             app:touchAnchorSide="top" />
     </Transition>
