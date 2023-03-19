@@ -11,6 +11,20 @@
     </ConstraintSet>
 
     <Transition
-        app:constraintSetEnd="@id/end"
-        app:constraintSetStart="@+id/start" />
+        app:constraintSetEnd="@id/middle"
+        app:constraintSetStart="@+id/start">
+        <OnSwipe
+            app:dragDirection="dragUp"
+            app:moveWhenScrollAtTop="true"
+            app:touchAnchorSide="top" />
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@+id/end"
+        app:constraintSetStart="@+id/middle">
+        <OnSwipe
+            app:dragDirection="dragUp"
+            app:moveWhenScrollAtTop="true"
+            app:touchAnchorSide="top" />
+    </Transition>
 </MotionScene>
