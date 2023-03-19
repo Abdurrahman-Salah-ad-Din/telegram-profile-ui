@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="small_margin">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
     <dimen name="large_font_size">24sp</dimen>
     <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_image_size">75dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="small_image_size">56dp</dimen>
+    <dimen name="image_button_width_height">48dp</dimen>
 </resources>
