@@ -64,6 +64,7 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="@dimen/medium_margin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,77 +79,77 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/small_margin"
+                android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@color/white"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/settings_account"
                     android:textColor="@color/flat_dark_blue" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/account_phone_number"
                     android:textColor="@color/black" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/settings_change_phone_number"
                     android:textColor="@color/flat_black" />
 
                 <com.google.android.material.divider.MaterialDivider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin" />
+                    android:layout_marginStart="@dimen/medium_margin" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/account_username"
                     android:textColor="@color/black" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/settings_username"
                     android:textColor="@color/flat_black" />
 
                 <com.google.android.material.divider.MaterialDivider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin" />
+                    android:layout_marginStart="@dimen/medium_margin" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/account_bio"
                     android:textColor="@color/black" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/settings_bio"
                     android:textColor="@color/flat_black" />
             </LinearLayout>
@@ -156,46 +157,46 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/small_margin"
+                android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@color/white"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/settings_phone_number_auth"
                     android:textColor="@color/flat_dark_blue" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/settings_auth_message"
                     android:textColor="@color/flat_black" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:orientation="horizontal">
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="@dimen/small_margin"
-                        android:layout_marginEnd="@dimen/small_margin"
+                        android:layout_marginStart="@dimen/medium_margin"
+                        android:layout_marginEnd="@dimen/medium_margin"
                         android:layout_weight="1"
                         android:backgroundTint="@color/flat_dark_blue"
                         android:text="@string/yes" />
 
                     <Button
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="@dimen/small_margin"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/medium_margin"
                         android:layout_weight="1"
                         android:backgroundTint="@color/flat_dark_blue"
                         android:text="@string/no" />
@@ -206,25 +207,25 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/small_margin"
+                android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@color/white"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
                     android:text="@string/settings"
                     android:textColor="@color/flat_dark_blue" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
-                    android:drawablePadding="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
+                    android:drawablePadding="@dimen/medium_margin"
                     android:text="@string/settings_chat_settings"
                     android:textColor="@color/black"
                     app:drawableStartCompat="@drawable/chat"
@@ -238,10 +239,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
-                    android:drawablePadding="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
+                    android:drawablePadding="@dimen/medium_margin"
                     android:text="@string/settings_privacy_and_security"
                     android:textColor="@color/black"
                     app:drawableStartCompat="@drawable/lock"
@@ -255,10 +256,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
-                    android:drawablePadding="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
+                    android:drawablePadding="@dimen/medium_margin"
                     android:text="@string/settings_storage"
                     android:textColor="@color/black"
                     app:drawableStartCompat="@drawable/storage"
@@ -272,10 +273,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
-                    android:drawablePadding="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
+                    android:drawablePadding="@dimen/medium_margin"
                     android:text="@string/settings_notifications"
                     android:textColor="@color/black"
                     app:drawableStartCompat="@drawable/notifications"
@@ -289,10 +290,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
-                    android:drawablePadding="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
+                    android:drawablePadding="@dimen/medium_margin"
                     android:text="@string/settings_folder"
                     android:textColor="@color/black"
                     app:drawableStartCompat="@drawable/folder"
@@ -306,10 +307,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/small_margin"
-                    android:layout_marginTop="@dimen/small_margin"
-                    android:layout_marginBottom="@dimen/small_margin"
-                    android:drawablePadding="@dimen/small_margin"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:layout_marginTop="@dimen/medium_margin"
+                    android:layout_marginBottom="@dimen/medium_margin"
+                    android:drawablePadding="@dimen/medium_margin"
                     android:text="@string/settings_language"
                     android:textColor="@color/black"
                     app:drawableStartCompat="@drawable/language"
