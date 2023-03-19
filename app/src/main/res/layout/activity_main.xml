@@ -52,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/change_profile_image"
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
