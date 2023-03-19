@@ -4,6 +4,17 @@
 
     <ConstraintSet android:id="@+id/start">
 
+        <Constraint
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/medium_margin"
+            android:padding="@dimen/small_padding"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="@+id/imageButton2">
+        </Constraint>
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
