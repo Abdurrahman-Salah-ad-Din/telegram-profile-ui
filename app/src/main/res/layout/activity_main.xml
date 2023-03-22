@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageView"
+        android:id="@+id/userProfilePicture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/sakura_flowers_bloom" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/medium_margin"
@@ -30,11 +30,11 @@
         android:text="@string/user_name"
         android:textColor="@color/black"
         android:textSize="@dimen/large_font_size"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/textView2" />
+        app:layout_constraintBottom_toTopOf="@+id/userStatus"
+        app:layout_constraintStart_toStartOf="@+id/userStatus" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/userStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/medium_margin"
@@ -42,33 +42,32 @@
         android:fontFamily="@font/droid_sans"
         android:text="@string/user_state"
         android:textColor="@color/flat_black"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/userProfilePicture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/changeProfilePictureFAB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:clickable="true"
         android:contentDescription="@string/change_profile_image"
         android:focusable="true"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/userProfilePicture"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/userProfilePicture"
         app:srcCompat="@drawable/add_photo" />
 
     <ScrollView
-        android:id="@+id/scrollView2"
+        android:id="@+id/container"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="@dimen/medium_margin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/userProfilePicture">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -327,56 +326,56 @@
     </ScrollView>
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backButton"
         android:layout_width="@dimen/image_button_width_height"
         android:layout_height="@dimen/image_button_width_height"
         android:layout_marginStart="@dimen/medium_margin"
         android:layout_marginTop="@dimen/medium_margin"
         android:background="#00FFFFFF"
         android:contentDescription="@string/back"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/userProfilePicture"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/arrow_back" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/moreButton"
         android:layout_width="@dimen/image_button_width_height"
         android:layout_height="@dimen/image_button_width_height"
         android:layout_marginTop="@dimen/medium_margin"
         android:layout_marginEnd="@dimen/medium_margin"
         android:background="#00FFFFFF"
         android:contentDescription="@string/more"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/userProfilePicture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/more_vert" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/searchButton"
         android:layout_width="@dimen/image_button_width_height"
         android:layout_height="@dimen/image_button_width_height"
         android:layout_marginEnd="@dimen/medium_margin"
         android:background="#00FFFFFF"
         android:contentDescription="@string/search"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintBottom_toBottomOf="@+id/moreButton"
+        app:layout_constraintEnd_toStartOf="@+id/moreButton"
+        app:layout_constraintTop_toTopOf="@+id/moreButton"
         app:srcCompat="@drawable/search" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/qrcodeButton"
         android:layout_width="@dimen/image_button_width_height"
         android:layout_height="@dimen/image_button_width_height"
         android:layout_marginEnd="@dimen/medium_margin"
         android:background="#00FFFFFF"
         android:contentDescription="@string/qr_code"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:layout_constraintBottom_toBottomOf="@+id/searchButton"
+        app:layout_constraintEnd_toStartOf="@+id/searchButton"
+        app:layout_constraintTop_toTopOf="@+id/searchButton"
         app:srcCompat="@drawable/qr_code" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
